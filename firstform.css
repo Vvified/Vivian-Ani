@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.form{
+    width: 60%;
+    height: auto;
+    padding: 4rem 4rem 4rem 4rem;  
+    background-color: #14173b;
+    color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 1.5rem;
+    row-gap: 1.2rem;
+}
+
+.form-title{
+    width: fit-content;
+    height: auto;
+}
+
+.form-title h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.02rem;
+}
+
+.major-form-elements{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 1.5rem; 
+}
+
+.radiobutton-main{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.input-question{
+    width: fit-content;
+    height: auto;
+}
+
+.input-question h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.radiogroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.radio-button{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: start;
+    column-gap: 0.5rem;
+}
+
+.radio-button input{
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+.radio-button label{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.checkgroup-main{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.checkgroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.3rem; 
+}
+
+.check-button{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: start;
+    column-gap: 0.5rem;
+}
+
+.check-button input{
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+.check-button label{
+    font-size: 0.9rem;
+    font-weight: 400; 
+}
+
+.select-input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem; 
+}
+
+.select-input-question{
+    width: fit-content;
+    height: auto;
+}
+
+.select-input-question label{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.select-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.select-main select{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1.4rem 0.5rem 0.5rem;
+    background-color: #25143b00;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.7px solid #666565;
+    font-size: 1rem;
+    color: #d8d8d8;
+}
+
+.select-main select:hover, .select-main select:focus{
+    border: 0.7px solid #b1b1b1;
+}
+
+option{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: #0e0b0b;
+}
+
+.input-groups-and-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.input-groups{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.2rem;
+}
+
+.first-input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+
+.first-input-group label{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.first-input-group input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1.4rem 0.5rem 0.5rem;
+    background-color: #25143b00;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.7px solid #666565;
+    font-size: 1rem;
+    color: #d8d8d8;
+}
+
+.first-input-group input:hover, .first-input-group input:focus{
+    border: 0.7px solid #b1b1b1;
+}
+
+.first-input-group textarea{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1.4rem 5rem 0.5rem;
+    background-color: #25143b00;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.7px solid #666565;
+    font-size: 1rem;
+    color: #d8d8d8;
+}
+
+.first-input-group textarea:hover, .first-input-group textarea:focus{
+    border: 0.7px solid #b1b1b1;
+}
+
+.button-container{
+    width: 100%;
+    height: auto;
+}
+
+.button-container button{
+    width: 100%;
+    height: auto;
+    background-color: #d8d8d8;
+    color: #14173b;
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-container button:hover{
+    background-color: #404792;
+    color: #d8d8d8;
+}

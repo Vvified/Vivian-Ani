@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+    <link rel="stylesheet" href="./firstform.css">
+</head>
+<body>
+    <div>
+        <div class="form-container">
+            <form class="form">
+                <div class="form-title">
+                    <h1>Contact Us Form</h1>
+                </div>
+        
+                <div class="major-form-elements">
+                    <div class="radiobutton-main">
+                        <div class="input-question">
+                                <h4>What's your gender?</h4>
+                        </div>
+            
+                        <div class="radiogroup">
+                            <div class="radio-button">
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                            </div>
+            
+                            <div class="radio-button">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="checkgroup-main">
+                        <div class="input-question">
+                                <h4>What languages do you speak?</h4> 
+                        </div>
+            
+                        <div class="checkgroup">
+                            <div class="check-button">
+                                <input type="checkbox" name="language1" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+            
+                            <div class="check-button">
+                                <input type="checkbox" name="language2" id="igbo" value="igbo">
+                                <label for="igbo">Igbo</label>
+                            </div>
+            
+                            <div class="check-button">
+                                <input type="checkbox" name="language3" id="hausa" value="hausa">
+                                <label for="hausa">Hausa</label>
+                            </div>
+            
+                            <div class="check-button">
+                                <input type="checkbox" name="language4" id="yoruba" value="yoruba">
+                                <label for="yoruba">Yoruba</label>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="select-input">
+                            <div class="select-input-question">
+                                <label>What is your state of origin?</label>
+                            </div>
+            
+                           <div class="select-main">
+                            <select name="country" id="select-country">
+                                <option value="Abia">Abia</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Enugu">Enugu</option>
+                            </select>
+                           </div>
+                    </div>
+            
+                    <div class="input-groups-and-button">
+                        <div class="input-groups">
+                            <div class="first-input-group">
+                                <label for="fullname">Enter your full name</label>
+                                <input type="text" placeholder="Full Name" id="fullname" name="fullname">
+                            </div>
+    
+                            <div class="first-input-group">
+                                <label for="email">Enter your email address</label>
+                                <input type="email" placeholder="Email Address" id="email" name="email">
+                            </div>
+
+                            <div class="first-input-group">
+                                <label for="about">What message do you have for us?</label>
+                                <textarea name="about" placeholder="Please, make it brief and concise. We have other messages to attend to." id="about"></textarea>
+                            </div>
+    
+                            <!-- <div class="first-input-group">
+                                <label for="password">Enter a password</label>
+                                <input type="password" placeholder="Password" id="password" name="password">
+                            </div> -->
+                        </div>
+            
+                        <div class="button-container">
+                            <button>Log in</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
